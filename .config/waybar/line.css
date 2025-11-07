@@ -25,7 +25,7 @@
 
 /* idk what all this does */
 window#waybar {
-    background-color: transparent;
+    background-color: @background;
     border-bottom: 0;
     color: @text;
     transition: background-color 0.5s;
@@ -40,24 +40,21 @@ window#waybar.empty #window {
 
 /* configuring the modules */
 .modules-left {
-    margin: 5px 0 0 5px;
+    margin: 0 0 0 5px;
     padding: 0 0 0 7px;
-    background-color: @background;
     border: 0px solid @focused;
     border-radius: 0px;
 }
 .modules-center {
-    margin: 5px 0 0 0;
+    margin: 0 0 0 0;
     padding: 0 10px 0 10px;
-    background-color: @background;
     border: 0px solid @focused;
     border-radius: 0px;
     font-size: 15px;
 }
 .modules-right {
-    margin: 5px 5px 0 0;
+    margin: 0 5px 0 0;
     padding: 0 10px 0 10px;
-    background-color: @background;
     border: 0px solid @focused;
     border-radius: 0px;
 }
