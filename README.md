@@ -1,18 +1,18 @@
-# HyprNight
+# UNIght
 
-Welcome to my Hyprland rice.
+Welcome to my Hyprland/Sway rice.
 A minimal setup based on the **Tokyo Night** theme, with **zero animations**.  
-This rice is focused on productivity and lightness.
+This rice is focused on productivity, speed and visibility with a hint of theming.
 
 ---
 
 ## Main Components
 
-- **Wayland / WM**: Hyprland (main)  
-- **Bar / Widgets**: Waybar, Waypapern swaync
+- **Wayland / WM**: Hyprland/Sway  
+- **Bar / Widgets**: Waybar, Waypaper swaync
 - **Launcher / Shortcuts**: Rofi  
-- **Editors / IDEs**: VSCodium, LazyVim / Neovim  
-- **Music / Audio**: MPD, ncmpcpp, rmpc
+- **Editors / IDEs**: NVchad  
+- **Music / Audio**: MPD, rmpc
 - **Session / Logout**: wlogout  
 - **Terminal / Shell**: Foot, Fish  
 
