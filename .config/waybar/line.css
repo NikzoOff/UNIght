@@ -65,13 +65,9 @@ button {
   border: none;
 }
 
-
-/* left island */
-
 /* menu pannel */
 #custom-arch,
-#custom-powerprofile,
-#custom-themeswitcher{
+#custom-powerprofile {
     padding-right: 10px;
     padding-left: 5px;
     font-size: 20px;
@@ -82,9 +78,6 @@ button {
 }
 #custom-powerprofile:hover{
     color: @color1
-}
-#custom-themeswitcher:hover {
-    color: @color1;
 }
 
 /* workspace pannel */
@@ -101,6 +94,11 @@ button {
     background-color: transparent;
 }
 #workspaces button.active {
+    color: @focused2;
+    background-color: @background;
+    font-size: 20px;
+}
+#workspaces button.focused {
     color: @focused2;
     background-color: @background;
     font-size: 20px;

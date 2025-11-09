@@ -18,7 +18,7 @@ fi
 
 echo "$CHOICE" > "$CACHE_FILE"
 
-notify-send "Waybar Style" "Selected: $CHOICE - Restart waybar to apply" -t 3000 &
+notify-send "Waybar Style" "Selected: $CHOICE - Restarting waybar." -t 3000 &
 pkill waybar &
 sleep 0.5 &
 bash "$HOME/.scripts/launch-waybar.sh"
