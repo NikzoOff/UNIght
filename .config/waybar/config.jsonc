@@ -237,9 +237,9 @@
       "on-click": "wlogout"
     },
     "network": {
-      "format-wifi": "󰤢",
-      "format-ethernet": "󰈀",
-      "format-disconnected": "󰤠",
+      "format-wifi": "󰤢 ",
+      "format-ethernet": "󰈀 ",
+      "format-disconnected": "󰤠 ",
       "interval": 5,
       "tooltip-format": "{essid} ({signalStrength}%)",
       "on-click": "foot -e nmtui"

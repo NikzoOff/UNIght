@@ -10,7 +10,8 @@
     hv: #7aa2f7; 
     primary: #7aa2f7; 
     ug: #0B2447;
-    font: "JetBrains Mono Nerd Font 11";
+    font: "Maple Mono 12";
+    font-weight: bold;
     background-color: @bg;
     //dark: @bg;
     border: 0px;

@@ -14,7 +14,8 @@
 
 /* font declared */
 * {
-    font-family: "Hurmit Nerd Font Propo";
+    font-family: "Maple Mono";
+    font-weight: bold;
 }
 
 #custom-openbracket,
@@ -87,7 +88,7 @@ button {
 }
 /* workspace pannel */
 #workspaces button {
-    padding: 0px 5px 0px 5px;
+    padding: 0px 0px 0px 0px;
     background-color: transparent;
     color: @text;
     border-radius: 0;
