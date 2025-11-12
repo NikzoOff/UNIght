@@ -24,7 +24,6 @@
     font-size: 15px;
 }
 
-/* idk what all this does */
 window#waybar {
     border-bottom: 0;
     color: @text;
@@ -61,12 +60,6 @@ window#waybar.empty #window {
     padding: 0 10px 0 10px;
     border: 0px solid @focused;
     border-radius: 0px;
-}
-
-
-/* whats this?? */
-button {
-  border: none;
 }
 
 /* menu pannel */
@@ -112,15 +105,6 @@ button {
     font-size: 20px;
 }
 
-
-/* no idea what this does */
-.modules-left > widget:first-child > #workspaces {
-    margin-left: 0;
-}
-.modules-right > widget:last-child > #workspaces {
-    margin-right: 0;
-}
-
 /* media player */
 #mpris {
     margin: 0 0 0 5px;
@@ -154,18 +138,10 @@ button {
 
 #clock:hover,
 #battery:hover,
-#custom-cpu:hover,
-#custom-clipboard:hover,
-#custom-bluetooth:hover,
 #network:hover,
-#idle_inhibitor:hover,
 #custom-swaync:hover,
-#backlight:hover,
-#wireplumber:hover{
+#backlight:hover {
     color: @color1;
-}
-#idle_inhibitor{
-  padding: 0 10px 0 0;
 }
 #custom-powerprofile{
   padding: 0 4px 0 8px;
@@ -173,18 +149,6 @@ button {
 
 
 /* Remaining Modules */
-#backlight,
-#wireplumber{
-    padding: 0 5px;
-}
-#wireplumber.muted {
-  background-color: @color2;
-}
-#custom-swaync {
-    padding: 0 10px 0 5px;
-    font-size: 16px;       /* same scale as other icons */
-    color: @text;
-}
 #battery.charging,
 #battery.plugged {
   background-color: @focused2 ;
