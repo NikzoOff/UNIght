@@ -4,16 +4,15 @@
     "position": "bottom",
     "height": 40,
     "spacing": 5, 
-    "margin": "0 15 5 15",
+    "margin": "0 3 5 3",
 
     /* MODULES POSITIONNING */
     "modules-left": [
       "group/Utilities",
-      "group/workspaces",
       "mpris"
     ],
     "modules-center": [
-      "group/windows"
+      "group/workspaces"
     ],
     "modules-right": [
       "group/VolLum",
@@ -63,15 +62,6 @@
         "custom/openbracket",
         "hyprland/workspaces",
         "sway/workspaces",
-        "custom/closebracket"
-      ]
-    },
-    "group/windows": {
-      "orientation": "horizontal",
-      "modules": [
-        "custom/openbracket",
-        "hyprland/window",
-        "sway/window",
         "custom/closebracket"
       ]
     },
@@ -245,7 +235,7 @@
       "format-disconnected": "󰤠 ",
       "interval": 5,
       "tooltip-format": "{essid} ({signalStrength}%)",
-      "on-click": "foot -e nmtui"
+      "on-click": "nmgui"
     }
   }
 ]

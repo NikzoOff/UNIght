@@ -26,9 +26,9 @@
 
 /* idk what all this does */
 window#waybar {
-    background-color: @background;
     border-bottom: 0;
     color: @text;
+    background-color: transparent;
     transition: background-color 0.5s;
 }
 window#waybar.hidden {
@@ -44,10 +44,12 @@ window#waybar.empty #window {
     margin: 0 0 0 5px;
     padding: 0 0 0 7px;
     border: 0px solid @focused;
+    background-color: @background;
     border-radius: 0px;
 }
 .modules-center {
     margin: 0 0 0 0;
+    background-color: @background;
     padding: 0 10px 0 10px;
     border: 0px solid @focused;
     border-radius: 0px;
@@ -55,6 +57,7 @@ window#waybar.empty #window {
 }
 .modules-right {
     margin: 0 5px 0 0;
+    background-color: @background;
     padding: 0 10px 0 10px;
     border: 0px solid @focused;
     border-radius: 0px;

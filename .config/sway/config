@@ -125,5 +125,11 @@ gaps outer 3
 
 for_window [app_id="waypaper"] floating enable
 
+# Règle pour Network Manager (nmgui)
+for_window [app_id="com.network.manager"] {
+    floating enable
+    move position 0 670
+}
+
 include ~/.config/sway/outputs
 include ~/.config/sway/workspaces
