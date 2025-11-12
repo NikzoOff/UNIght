@@ -17,9 +17,13 @@ case "$STYLE" in
         CONFIG="$CONFIG_DIR/line.jsonc"
         STYLE_FILE="$CONFIG_DIR/line.css"
         ;;
-    "default"|*)
+    "default")
         CONFIG="$CONFIG_DIR/config.jsonc"
         STYLE_FILE="$CONFIG_DIR/style.css"
+        ;;
+    "bottom"|*)
+        CONFIG="$CONFIG_DIR/bottom.jsonc"
+        STYLE_FILE="$CONFIG_DIR/bottom.css"
         ;;
 esac
 

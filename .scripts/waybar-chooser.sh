@@ -3,7 +3,7 @@
 
 CONFIG_DIR="$HOME/.config/waybar"
 CACHE_FILE="$HOME/.cache/waybar-style-choice"
-STYLES=("default" "line")
+STYLES=("default" "line" "bottom")
 LAUNCHER="rofi -dmenu -i -p 'Select Waybar Style'"
 CHOICE=$(printf '%s\n' "${STYLES[@]}" | eval $LAUNCHER)
 
