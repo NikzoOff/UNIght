@@ -1,7 +1,7 @@
 #!/bin/bash
 # launch-waybar.sh - Launch waybar with selected style
 
-CONFIG_DIR="$HOME/.config/waybar"
+CONFIG_DIR="$HOME/.config/waybar/styles"
 CACHE_FILE="$HOME/.cache/waybar-style-choice"
 
 # Read saved choice, default to "default" if none exists
@@ -21,9 +21,13 @@ case "$STYLE" in
         CONFIG="$CONFIG_DIR/config.jsonc"
         STYLE_FILE="$CONFIG_DIR/style.css"
         ;;
-    "bottom"|*)
+    "bottom")
         CONFIG="$CONFIG_DIR/bottom.jsonc"
         STYLE_FILE="$CONFIG_DIR/bottom.css"
+        ;;
+    "vertical"|*)
+        CONFIG="$CONFIG_DIR/vertical.jsonc"
+        STYLE_FILE="$CONFIG_DIR/vertical.css"
         ;;
 esac
 

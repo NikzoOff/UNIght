@@ -4,7 +4,7 @@
 (
     address: "127.0.0.1:6600",
     password: None,
-    theme: Some("nord"),
+    theme: Some("theme"),
     cache_dir: "/home/nikzo/.cache/rmpc/",
     on_song_change: None,
     volume_step: 5,

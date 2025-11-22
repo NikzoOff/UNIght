@@ -7,6 +7,8 @@ alias iy="yay -Sy"
 alias nv="nvim"
 alias iss="yay -Ss"
 alias ins="yay -Rns"
+alias ls='eza --icons'
+alias cat='bat --style=plain --paging=never'
 
 fastfetch
 if status is-interactive

@@ -47,6 +47,8 @@ set $term foot
     bindsym $mod+t exec foot -e tmux
     bindsym $mod+h exec hyprshot-gui 
     bindsym $mod+Return exec obsidian
+    bindsym $mod+q exec ~/.scripts/workspace-setup.sh
+    bindsym $mod+x exec ~/.scripts/theme-switcher.sh
 
     bindsym $mod+Escape reload
 
@@ -130,6 +132,9 @@ for_window [app_id="com.network.manager"] {
     floating enable
     move position 0 670
 }
+
+# Fix Firefox/Zen Browser font rendering
+for_window [app_id="^zen-browser$"] inhibit_idle focus
 
 include ~/.config/sway/outputs
 include ~/.config/sway/workspaces

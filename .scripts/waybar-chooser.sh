@@ -1,9 +1,9 @@
 #!/bin/bash
 # waybar-chooser.sh - Interactive waybar style selector
 
-CONFIG_DIR="$HOME/.config/waybar"
+CONFIG_DIR="$HOME/.config/waybar/styles/"
 CACHE_FILE="$HOME/.cache/waybar-style-choice"
-STYLES=("default" "line" "bottom")
+STYLES=("default" "line" "bottom" "vertical")
 LAUNCHER="rofi -dmenu -i -p 'Select Waybar Style'"
 CHOICE=$(printf '%s\n' "${STYLES[@]}" | eval $LAUNCHER)
 
